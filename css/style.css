@@ -315,7 +315,7 @@ body {
   }
 }
 .tools__bottom-item--user {
-  background-image: url(../img/Group.png);
+  background-image: url(./img/Group.png);
   min-width: 370px;
   min-height: 262px;
   text-align: center;
@@ -329,7 +329,7 @@ body {
   }
 }
 .tools__bottom-item--testing {
-  background-image: url(../img/Group\ 2.png);
+  background-image: url(./img/Group\ 2.png);
   min-width: 386px;
   min-height: 256px;
 }
@@ -339,7 +339,7 @@ body {
   }
 }
 .tools__bottom-item--design {
-  background-image: url(../img/Group\ 3.png);
+  background-image: url(./img/Group\ 3.png);
   min-width: 380px;
   min-height: 276px;
   margin-bottom: -20px;
@@ -383,14 +383,14 @@ body {
 
 .podcast {
   min-height: 448px;
-  background-image: url(../img/Group\ 5.png);
+  background-image: url(./img/Group\ 5.png);
   background-position: cover;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 @media (max-width: 756px) {
   .podcast {
-    background-image: url(../img/bg\ \(2\).png);
+    background-image: url(./img/bg\ \(2\).png);
   }
 }
 .podcast__content {
@@ -484,7 +484,7 @@ body {
 .customers__item::before {
   content: "";
   display: block;
-  background-image: url(../img/item.png);
+  background-image: url(./img/item.png);
   width: 24px;
   height: 24px;
   z-index: 2;
@@ -500,7 +500,7 @@ body {
 
 .statistic {
   min-height: 448px;
-  background-image: url(../img/statistic_fon.png);
+  background-image: url(./img/statistic_fon.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -554,7 +554,7 @@ body {
 
 .cases {
   min-height: 880px;
-  background-image: url(../img/cases_fon.png);
+  background-image: url(./img/cases_fon.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -653,7 +653,7 @@ body {
   color: #FFFFFF;
 }
 .cases__item--apple {
-  background-image: url(../img/apple_cases.png);
+  background-image: url(./img/apple_cases.png);
   margin-right: 30px;
 }
 @media (max-width: 756px) {
@@ -662,7 +662,7 @@ body {
   }
 }
 .cases__item--microsoft {
-  background-image: url(../img/microsoft_cases.png);
+  background-image: url(./img/microsoft_cases.png);
   margin-right: 30px;
 }
 @media (max-width: 756px) {
@@ -671,7 +671,7 @@ body {
   }
 }
 .cases__item--facebook {
-  background-image: url(../img/facebook_cases.png);
+  background-image: url(./img/facebook_cases.png);
 }
 @media (max-width: 756px) {
   .cases__item--facebook {
@@ -865,7 +865,7 @@ body {
 
 .blog {
   min-height: 880px;
-  background-image: url(../img/blog_fon.png);
+  background-image: url(./img/blog_fon.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -985,7 +985,7 @@ body {
 }
 .map__content {
   min-height: 800px;
-  background-image: url(../img/83jqLdqe-0tL48DhQjT6t0BkouA2YNDy.jpg);
+  background-image: url(./img/83jqLdqe-0tL48DhQjT6t0BkouA2YNDy.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1072,7 +1072,7 @@ body {
 }
 
 .started {
-  background-image: url(../img/started-background.png);
+  background-image: url(./img/started-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
