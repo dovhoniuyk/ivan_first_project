@@ -1,0 +1,59 @@
+.started{
+    background-image: url(../img/started-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 528px;
+    margin-top: -100px;
+    @media(max-width: 756px){
+       background-image: url("../img/fon-mobile-started.png");
+    }
+        &__content{
+          text-align: center;
+          @media(max-width: 756px){
+              padding-bottom: 150px;
+          }
+            
+        }
+        &__signature{
+            text-align: center;
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 32px;
+            color: #E7A651;
+            padding-top: 122px;
+            @media(max-width: 756px){
+                padding-top: 70px;
+            }
+        }
+        &__text{
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 64px;
+            text-align: center;
+            color: white;
+            @media(max-width: 756px){
+                font-size: 40px;
+                line-height: 48px;
+            }
+        }
+        &__get-started{
+            background: #E7A651;
+            border-radius: 5px;
+            min-width: 202px;
+            min-height: 48px;
+            border: none;
+            color: #FFFFFF;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+}

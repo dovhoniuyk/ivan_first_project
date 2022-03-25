@@ -1,0 +1,165 @@
+.tools {
+    &__content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 112px;
+    }
+    &__top-content{
+        display: flex;
+        @media(max-width: 756px){
+           flex-wrap: wrap;
+}
+        
+    }
+    &__top-item{
+        display: flex;
+        @media(max-width: 756px){
+            a{
+                margin: 0;
+            }
+ }
+ }
+    &__marketing{
+        background: #6C4DC2;
+        min-width: 70px;
+        max-height: 70px;
+        border-radius: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__customer{
+        background: #55B184;
+        min-width: 70px;
+        max-height: 70px;
+        border-radius: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__human{
+        background: #3576EC;
+        min-width: 70px;
+        max-height: 70px;
+        border-radius: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    &__top-item-text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        h2{
+            a{
+                text-decoration: none;
+                color: #333333;
+            }
+        }
+        p {
+           margin: 0; 
+           font-family:"Courier Prime";
+            font-size: 16px;
+            line-height: 32px;
+            color: rgba(51, 51, 51, 0.501557);
+        }
+    }
+    &__bottom-title{
+        font-family: "Heebo";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #333333;
+        margin-top: 144px;
+    }
+    &__bottom-content{
+        display:flex;
+        margin-bottom: 128px;
+        align-items: flex-end;
+        justify-content: space-between;
+        @media(max-width: 756px){
+            flex-wrap: wrap;
+            margin-right: 0;
+ }     
+    }
+    &__bottom-item{
+        display: flex;
+        align-items: flex-end;
+        background-size: cover;
+        @media(max-width: 756px){
+            margin-top: 48px;
+        }
+        &--user{
+            background-image: url(../img/Group.png);
+            min-width: 370px;
+            min-height: 262px;
+            text-align: center;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            padding-bottom: 15px;
+            margin-bottom: -4px;
+            @media(max-width: 756px){
+               margin-bottom: 0;
+        }
+    }
+        &--testing{
+            background-image: url(../img/Group\ 2.png);
+            min-width: 386px;
+            min-height: 256px;
+            @media(max-width: 756px){
+                margin-bottom: 0;
+         }   
+        }
+        &--design{
+            background-image: url(../img/Group\ 3.png);
+            min-width: 380px;
+            min-height: 276px;
+            margin-bottom: -20px;
+            @media(max-width: 756px){
+                margin-bottom: 0;
+                margin-left: -10px;
+         }
+            
+        }
+    }
+    &__bottom-url{
+        
+        border-radius: 0px 20px;
+        min-height: 80px;
+        text-decoration: none;
+        font-family: "Heebo";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        &--user{
+            background: #3576EC;
+            margin-bottom: -10px;
+            margin-left: 4px;
+            min-width: 235px;
+            
+        }
+        &--testing{
+            background: #55B184;
+            min-width: 138px;
+        }
+        &--design{
+            background: #E7A651;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            min-width: 138px;
+        }
+    }
+
+
+
+
+
+}

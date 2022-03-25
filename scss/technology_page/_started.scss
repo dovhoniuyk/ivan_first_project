@@ -1,0 +1,45 @@
+.started{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 528px;
+    margin-top: -100px;
+        &__content{
+          text-align: center;
+            
+        }
+        &__signature{
+            text-align: center;
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 32px;
+            color: #E7A651;
+            padding-top: 122px;
+        }
+        &__text{
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 64px;
+            text-align: center;
+            color: white;
+        }
+        &__get-started{
+            background: #E7A651;
+            border-radius: 5px;
+            min-width: 202px;
+            min-height: 48px;
+            border: none;
+            color: #FFFFFF;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+}

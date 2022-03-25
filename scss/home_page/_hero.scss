@@ -1,0 +1,138 @@
+.hero{
+    background-color: #273A89;
+    min-height: 840px;
+    &__content{
+        display: flex;
+        padding-top: 50px;
+        flex-direction: column;
+    }
+    &__top-content{
+        display: flex;
+        @media(max-width: 756px){
+            flex-wrap: wrap;
+        }
+    }
+        &__left-content{
+            display: flex;
+            flex-direction: column;
+            margin-top: 160px;
+            margin-right: -50px;
+            @media(max-width: 756px){
+                margin-top: 0;
+            }
+           
+
+        }
+        &__satisfied{
+            display: flex;
+            background-color: #23347b;
+            border-radius: 24px;
+            max-width: 244px;
+            @media(max-width: 756px){
+                flex-wrap: wrap;
+            }
+
+            
+           a{
+               display: flex;
+               width: 48px;
+               height: 48px;
+               border-radius: 48px;
+               background: #3576EC;
+               justify-content: center;
+               margin-right: 15px;
+               
+               img{
+                   width: 21px;
+                   height: 21px;
+                   align-self: center;
+               }
+            } 
+            p{
+                color: #E7A651;  
+                opacity: 1;
+           }
+        }
+        &__h2 {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 80px;
+            color: #FFFFFF;
+            margin: 30px 0;
+            max-width: 570px;
+            width:100%;
+            @media(max-width: 756px){
+                font-size: 56px;
+                line-height: 64px;
+            }
+        }
+        &__text {
+            font-family: "Courier Prime";
+            font-size: 20px;
+            line-height: 32px;
+            color: #FFFFFF;
+            margin-bottom: 32px;
+            max-width: 470px;
+            @media(max-width: 756px){
+                margin-right: 60px;
+            }
+
+
+        }
+        &__right-content{
+            img{
+                max-width: 700px;
+                max-height: 615px;
+                width: 100%;
+            }
+            
+        }
+
+            &__button{
+                background: #E7A651;
+                border-radius: 5px;
+                max-width: 170px;
+                height: 48px;
+                border:none;
+                font-family: "Heebo";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                text-align: center;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+
+    &__bottom-content{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 80px;
+        @media(max-width: 756px){
+            justify-content: center;
+}
+        
+    }
+
+    &__bottom-content-item{
+        display: flex;
+        width: 48px;
+        height: 48px;
+        background: #6C4DC2;
+        border-radius: 48px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        margin-bottom: 36px;
+        
+        &:last-child {
+            margin-right: 0;
+        }
+        
+
+    }
+
+}

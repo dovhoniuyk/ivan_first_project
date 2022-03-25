@@ -1,0 +1,158 @@
+.articles{
+    min-height: 1904px;
+    margin-bottom: 136px;
+    &__content{
+        display: flex;
+        margin-top: 64px;
+        justify-content: space-between;
+    }
+    &__left-content{
+        display: flex;
+        flex-direction: column;
+    }
+    &__cards{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 804px;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+    &__card{
+        max-width: 370px;
+        h2{
+            font-family: 'Courier Prime';
+            font-size: 20px;
+            line-height: 32px;
+            
+        }
+        &--text{
+            font-family: 'Heebo';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            margin-top: 12px;
+            margin-bottom: 24px;
+        }
+    }
+    &__profile{
+        display: flex;
+        align-items: center;
+        img{
+            height: 48px;
+            width: 48px;
+            margin-right: 16px;
+        }
+    }
+    &__name-data{
+        &--name{
+            font-family: 'Courier Prime';
+            font-size: 16px;
+            line-height: 32px;
+            margin-bottom: -15px;
+        }
+        &--data{
+            font-family: 'Courier Prime';
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+    &__pages{
+        display: flex;
+        justify-content: space-between;
+        max-width: 160px;
+        align-self: center;
+    }
+    &__page{
+        display: flex;
+        min-width: 48px;
+        min-height: 48px;
+        justify-content: center;
+        border-radius: 48px;
+        margin-top: 64px;
+        &.active{
+            background-color: #E7A651;
+            color: white;
+        }
+
+    }
+    &__right-content{
+        display: flex;
+        flex-direction: column;
+        margin-left: 64px;
+        h2{
+            font-family: 'Heebo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 32px;
+            color: #E7A651;
+            margin-top: 0;
+            margin-bottom: -5px;
+           
+        }
+    }
+    &__posts{
+        display: flex;
+        flex-direction: column;
+    }
+    &__post{
+        display: flex;
+        align-items: center;
+        img{
+            width: 109px;
+            height: 80px;
+            margin-right: 16px;
+            
+        }
+    }
+    &__text-data{
+        display: flex;
+        flex-direction: column;
+        &--text{
+            font-family: 'Courier Prime';
+            font-size: 16px;
+            line-height: 32px;
+            width: 213px;
+            margin-bottom: -10px;
+        }
+        &--data{
+            font-family: 'Courier Prime';
+            font-size: 14px;
+            line-height: 24px;
+            color: rgba(51, 51, 51, 0.50133);
+        }
+    }
+    &__categories{
+        margin-top: 40px;
+        margin-bottom: 10px;
+        ul{
+            list-style: none;
+            li{
+                margin-bottom: 5px;
+                font-family: 'Courier Prime';
+                font-size: 16px;
+                line-height: 32px;
+                color: rgba(51, 51, 51, 0.501557);
+            }
+        }
+        
+    }
+    &__authors{
+            
+    }
+    &__authors-images{
+        margin-top: 38px;
+        img{
+            margin-right: 8px;
+            
+        }
+    }
+
+
+
+
+
+
+}

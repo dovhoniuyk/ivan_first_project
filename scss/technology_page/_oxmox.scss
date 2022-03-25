@@ -1,0 +1,54 @@
+.oxmox{
+    &__content{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    &__top-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__description{
+        max-width: 470px;
+        h2{
+            font-family: 'Heebo';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+        }
+        p{
+            font-family: 'Courier Prime';
+            font-size: 16px;
+            line-height: 32px;
+        }
+        ul{
+            font-family: 'Courier Prime';
+            font-size: 16px;
+            line-height: 32px;
+            list-style: none;
+            padding-left: 16px;
+            li{
+                
+                &::before{
+                    content: "";
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 8px;
+                    background-color: #273A89;
+                    display:inline-block;
+                    margin-right: 16px;
+                    
+                }
+            }
+        }
+    }
+    &__bottom-content{
+        align-self: center;
+        max-width: 770px;
+        font-family: 'Courier Prime';
+        font-size: 16px;
+        line-height: 32px;
+        margin-top: 92px;
+    }
+}

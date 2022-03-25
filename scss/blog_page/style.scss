@@ -1,0 +1,11 @@
+@import "header";
+@import "hero";
+@import "footer";
+@import "started";
+@import "articles";
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}

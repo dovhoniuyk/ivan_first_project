@@ -1,0 +1,1321 @@
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@media (max-width: 800px) {
+  .container {
+    width: auto;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background: #273A89;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  color: #FFFFFF;
+}
+.header__logo h1 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  min-width: 432px;
+}
+.header__menu li {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Courier Prime";
+  font-size: 16px;
+  line-height: 32px;
+}
+.header__menu li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.header__search {
+  display: flex;
+  background: #6C4DC2;
+  border-radius: 24px;
+  min-width: 48px;
+  min-height: 48px;
+  border: none;
+  justify-content: center;
+}
+@media (max-width: 756px) {
+  .header__search {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+}
+.header__search img {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+.header__burger-search {
+  display: flex;
+  align-items: center;
+}
+.header .burger-menu {
+  display: none;
+}
+@media (max-width: 756px) {
+  .header .burger-menu {
+    display: block;
+  }
+  .header .header__menu {
+    display: none;
+  }
+}
+
+.hero {
+  background-color: #273A89;
+  min-height: 840px;
+}
+.hero__content {
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+}
+.hero__top-content {
+  display: flex;
+}
+@media (max-width: 756px) {
+  .hero__top-content {
+    flex-wrap: wrap;
+  }
+}
+.hero__left-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 160px;
+  margin-right: -50px;
+}
+@media (max-width: 756px) {
+  .hero__left-content {
+    margin-top: 0;
+  }
+}
+.hero__satisfied {
+  display: flex;
+  background-color: #23347b;
+  border-radius: 24px;
+  max-width: 244px;
+}
+@media (max-width: 756px) {
+  .hero__satisfied {
+    flex-wrap: wrap;
+  }
+}
+.hero__satisfied a {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  background: #3576EC;
+  justify-content: center;
+  margin-right: 15px;
+}
+.hero__satisfied a img {
+  width: 21px;
+  height: 21px;
+  align-self: center;
+}
+.hero__satisfied p {
+  color: #E7A651;
+  opacity: 1;
+}
+.hero__h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 80px;
+  color: #FFFFFF;
+  margin: 30px 0;
+  max-width: 570px;
+  width: 100%;
+}
+@media (max-width: 756px) {
+  .hero__h2 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+.hero__text {
+  font-family: "Courier Prime";
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+  max-width: 470px;
+}
+@media (max-width: 756px) {
+  .hero__text {
+    margin-right: 60px;
+  }
+}
+.hero__right-content img {
+  max-width: 700px;
+  max-height: 615px;
+  width: 100%;
+}
+.hero__button {
+  background: #E7A651;
+  border-radius: 5px;
+  max-width: 170px;
+  height: 48px;
+  border: none;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.hero__bottom-content {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 80px;
+}
+@media (max-width: 756px) {
+  .hero__bottom-content {
+    justify-content: center;
+  }
+}
+.hero__bottom-content-item {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  background: #6C4DC2;
+  border-radius: 48px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 36px;
+}
+.hero__bottom-content-item:last-child {
+  margin-right: 0;
+}
+
+.tools__content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 112px;
+}
+.tools__top-content {
+  display: flex;
+}
+@media (max-width: 756px) {
+  .tools__top-content {
+    flex-wrap: wrap;
+  }
+}
+.tools__top-item {
+  display: flex;
+}
+@media (max-width: 756px) {
+  .tools__top-item a {
+    margin: 0;
+  }
+}
+.tools__marketing {
+  background: #6C4DC2;
+  min-width: 70px;
+  max-height: 70px;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tools__customer {
+  background: #55B184;
+  min-width: 70px;
+  max-height: 70px;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tools__human {
+  background: #3576EC;
+  min-width: 70px;
+  max-height: 70px;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.tools__top-item-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.tools__top-item-text h2 a {
+  text-decoration: none;
+  color: #333333;
+}
+.tools__top-item-text p {
+  margin: 0;
+  font-family: "Courier Prime";
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.501557);
+}
+.tools__bottom-title {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #333333;
+  margin-top: 144px;
+}
+.tools__bottom-content {
+  display: flex;
+  margin-bottom: 128px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+@media (max-width: 756px) {
+  .tools__bottom-content {
+    flex-wrap: wrap;
+    margin-right: 0;
+  }
+}
+.tools__bottom-item {
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+}
+@media (max-width: 756px) {
+  .tools__bottom-item {
+    margin-top: 48px;
+  }
+}
+.tools__bottom-item--user {
+  background-image: url(../img/Group.png);
+  min-width: 370px;
+  min-height: 262px;
+  text-align: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding-bottom: 15px;
+  margin-bottom: -4px;
+}
+@media (max-width: 756px) {
+  .tools__bottom-item--user {
+    margin-bottom: 0;
+  }
+}
+.tools__bottom-item--testing {
+  background-image: url(../img/Group\ 2.png);
+  min-width: 386px;
+  min-height: 256px;
+}
+@media (max-width: 756px) {
+  .tools__bottom-item--testing {
+    margin-bottom: 0;
+  }
+}
+.tools__bottom-item--design {
+  background-image: url(../img/Group\ 3.png);
+  min-width: 380px;
+  min-height: 276px;
+  margin-bottom: -20px;
+}
+@media (max-width: 756px) {
+  .tools__bottom-item--design {
+    margin-bottom: 0;
+    margin-left: -10px;
+  }
+}
+.tools__bottom-url {
+  border-radius: 0px 20px;
+  min-height: 80px;
+  text-decoration: none;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tools__bottom-url--user {
+  background: #3576EC;
+  margin-bottom: -10px;
+  margin-left: 4px;
+  min-width: 235px;
+}
+.tools__bottom-url--testing {
+  background: #55B184;
+  min-width: 138px;
+}
+.tools__bottom-url--design {
+  background: #E7A651;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  min-width: 138px;
+}
+
+.podcast {
+  min-height: 448px;
+  background-image: url(../img/Group\ 5.png);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@media (max-width: 756px) {
+  .podcast {
+    background-image: url(../img/bg\ \(2\).png);
+  }
+}
+.podcast__content {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 756px) {
+  .podcast__content {
+    flex-wrap: wrap;
+    max-width: auto;
+    justify-content: center;
+  }
+}
+.podcast__image {
+  margin-right: 150px;
+}
+.podcast__text {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FFFFFF;
+  max-width: 570px;
+}
+
+.customers {
+  min-height: 880px;
+}
+.customers__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 144px;
+}
+@media (max-width: 756px) {
+  .customers__content {
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 756px) {
+  .customers__left-content img {
+    width: 100%;
+  }
+}
+.customers__right-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 88px;
+}
+@media (max-width: 756px) {
+  .customers__right-content {
+    margin-left: 0;
+  }
+}
+.customers__services {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #E7A651;
+}
+.customers__title {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 64px;
+  color: #333333;
+  margin: 0;
+}
+.customers__items {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.customers__item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  font-family: "Courier Prime";
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.501557);
+}
+.customers__item::before {
+  content: "";
+  display: block;
+  background-image: url(../img/item.png);
+  width: 24px;
+  height: 24px;
+  z-index: 2;
+  margin-right: 16px;
+}
+.customers__button-about {
+  max-width: 170px;
+  min-height: 48px;
+  background: #E7A651;
+  border-radius: 5px;
+  border: none;
+}
+
+.statistic {
+  min-height: 448px;
+  background-image: url(../img/statistic_fon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.statistic__content {
+  display: flex;
+  align-items: center;
+  min-height: 448px;
+  justify-content: space-around;
+}
+@media (max-width: 756px) {
+  .statistic__content {
+    flex-direction: column;
+    padding-top: 112px;
+  }
+}
+.statistic__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 756px) {
+  .statistic__item {
+    margin-bottom: 68px;
+  }
+}
+.statistic__number {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+.statistic__parameter {
+  font-family: "Courier Prime";
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.statistic__image {
+  display: flex;
+  min-height: 112px;
+  min-width: 112px;
+  border-radius: 112px;
+  align-items: center;
+  background: #3c4d94;
+  justify-content: center;
+}
+
+.cases {
+  min-height: 880px;
+  background-image: url(../img/cases_fon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cases__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 74px;
+}
+.cases__signature {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #E7A651;
+  margin: 0;
+}
+.cases__title {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 64px;
+  color: #333333;
+  max-width: 593px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+@media (max-width: 756px) {
+  .cases__title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+.cases__text {
+  font-family: "Courier Prime";
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.501557);
+  margin-top: 0;
+  margin-bottom: 52px;
+}
+@media (max-width: 756px) {
+  .cases__text {
+    text-align: center;
+  }
+}
+.cases__items {
+  display: flex;
+  margin-bottom: 64px;
+  justify-content: space-between;
+}
+@media (max-width: 756px) {
+  .cases__items {
+    flex-wrap: wrap;
+    padding-left: 23px;
+  }
+}
+.cases__item {
+  min-width: 370px;
+  min-height: 304px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 40px;
+}
+@media (max-width: 756px) {
+  .cases__item {
+    flex-wrap: wrap;
+    max-width: 370px;
+    max-height: 304px;
+    width: 100%;
+    height: 100%;
+  }
+}
+.cases__item p {
+  margin-bottom: 44px;
+  margin-left: 32px;
+  font-family: "Courier Prime";
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.cases__item a {
+  margin-bottom: 40px;
+  margin-left: 32px;
+  text-decoration: none;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.cases__item--apple {
+  background-image: url(../img/apple_cases.png);
+  margin-right: 30px;
+}
+@media (max-width: 756px) {
+  .cases__item--apple {
+    margin-right: 0;
+  }
+}
+.cases__item--microsoft {
+  background-image: url(../img/microsoft_cases.png);
+  margin-right: 30px;
+}
+@media (max-width: 756px) {
+  .cases__item--microsoft {
+    margin-right: 0;
+  }
+}
+.cases__item--facebook {
+  background-image: url(../img/facebook_cases.png);
+}
+@media (max-width: 756px) {
+  .cases__item--facebook {
+    margin-right: 0;
+  }
+}
+.cases__button {
+  min-width: 170px;
+  min-height: 48px;
+  background: #E7A651;
+  border-radius: 5px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+}
+
+.slider {
+  min-height: 880px;
+}
+.slider .container {
+  position: relative;
+  padding-bottom: 50px;
+}
+.slider__content {
+  margin-top: 111px;
+}
+.slider__item {
+  display: flex;
+}
+@media (max-width: 756px) {
+  .slider__item {
+    flex-wrap: wrap;
+  }
+}
+.slider__left-item {
+  max-width: 570px;
+  width: 100%;
+}
+@media (max-width: 756px) {
+  .slider__left-item {
+    margin-left: 23px;
+    position: relative;
+  }
+}
+.slider__text {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333333;
+}
+@media (max-width: 756px) {
+  .slider__text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.slider__name {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+  margin-bottom: 0;
+}
+.slider__position {
+  font-family: "Courier Prime";
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.501557);
+}
+.slider__right-item {
+  margin-top: 41px;
+  margin-left: 100px;
+}
+.slider__right-item img {
+  width: 100%;
+}
+.slider__arrows {
+  position: absolute;
+  bottom: 0;
+  width: 130px;
+  height: 100px;
+}
+.slider__arrows--mobile {
+  display: none;
+}
+@media (max-width: 756px) {
+  .slider__arrows {
+    display: none;
+  }
+  .slider__arrows--mobile {
+    display: block;
+    position: static;
+  }
+  .slider__arrows--mobile .swiper-button-next {
+    left: 70px;
+  }
+}
+.slider__arrows .swiper-button-prev, .slider__arrows .swiper-button-next {
+  color: #ffffff;
+  height: 48px;
+  width: 48px;
+  background-color: #E7A651;
+  border-radius: 100%;
+}
+.slider__arrows .swiper-button-prev:after, .slider__arrows .swiper-button-next:after {
+  font-size: 16px;
+}
+
+.clients {
+  min-height: 720px;
+}
+.clients__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.clients__signature {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #E7A651;
+  text-align: center;
+}
+.clients__text {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 64px;
+  color: #333333;
+  text-align: center;
+  max-width: 970px;
+  padding-left: 100px;
+  margin-top: 0;
+}
+@media (max-width: 756px) {
+  .clients__text {
+    font-size: 40px;
+    line-height: 48px;
+    padding-left: 15px;
+  }
+}
+.clients__items {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 756px) {
+  .clients__items {
+    flex-direction: column;
+  }
+  .clients__items img {
+    width: 50%;
+    align-self: center;
+    margin-bottom: 57px;
+  }
+}
+.clients__button {
+  display: flex;
+  justify-content: center;
+}
+.clients__button button {
+  margin-top: 90px;
+  background: #E7A651;
+  border-radius: 5px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  min-width: 170px;
+  min-height: 48px;
+  border: none;
+}
+
+.blog {
+  min-height: 880px;
+  background-image: url(../img/blog_fon.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.blog__content {
+  display: flex;
+  flex-direction: column;
+}
+.blog__signature {
+  display: flex;
+  justify-content: center;
+  margin-top: 74px;
+}
+.blog__signature p {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #E7A651;
+}
+.blog__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+@media (max-width: 756px) {
+  .blog__title {
+    text-align: center;
+  }
+}
+.blog__title p {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 64px;
+  color: #333333;
+  margin: 0;
+}
+.blog__text {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+  margin-bottom: 46px;
+}
+.blog__text p {
+  font-family: "Courier Prime";
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.501557);
+  margin: 0;
+}
+.blog__items {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 756px) {
+  .blog__items {
+    flex-direction: column;
+  }
+}
+.blog__item p {
+  font-family: "Courier Prime";
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+}
+.blog__item h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+.blog__item:first-child {
+  margin-right: 30px;
+}
+.blog__item:last-child {
+  margin-left: 30px;
+}
+@media (max-width: 756px) {
+  .blog__item:last-child {
+    margin-left: 0;
+  }
+}
+.blog__profile {
+  display: flex;
+  align-items: center;
+}
+.blog__profile img {
+  max-width: 48px;
+  max-height: 48px;
+  margin-right: 16px;
+}
+.blog__profile-name h2 {
+  font-family: "Courier-Prime";
+  font-size: 16px;
+  line-height: 32px;
+  color: #333333;
+  margin-bottom: 0;
+}
+.blog__profile-name p {
+  font-family: "Courier Prime";
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.50133);
+  margin-top: 0;
+}
+
+.map {
+  min-height: 880px;
+  position: relative;
+}
+.map img {
+  display: none;
+}
+.map__content {
+  min-height: 800px;
+  background-image: url(../img/83jqLdqe-0tL48DhQjT6t0BkouA2YNDy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.map .form {
+  min-height: 560px;
+  max-width: 470px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 50px;
+  top: 100px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  padding-left: 64px;
+}
+@media (max-width: 756px) {
+  .map .form {
+    right: 10px;
+    max-width: 320px;
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+.map .form__signature {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  max-width: 348px;
+  margin-top: 58px;
+  margin-bottom: 17px;
+  color: #E7A651;
+}
+@media (max-width: 756px) {
+  .map .form__signature {
+    font-size: 16px;
+  }
+}
+.map .form__title {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  max-width: 348px;
+  margin-top: 0;
+  margin-bottom: 37px;
+}
+@media (max-width: 756px) {
+  .map .form__title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.map .form__name, .map .form__email {
+  max-width: 342px;
+  min-height: 48px;
+  margin-bottom: 16px;
+  padding-left: 16px;
+}
+.map .form__message {
+  min-height: 96px;
+  max-width: 342px;
+  margin-bottom: 32px;
+  padding-left: 16px;
+}
+.map .form__button {
+  max-width: 348px;
+  background: #E7A651;
+  border-radius: 5px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  min-height: 48px;
+  border: none;
+}
+
+.started {
+  background-image: url(../img/started-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 528px;
+  margin-top: -100px;
+}
+@media (max-width: 756px) {
+  .started {
+    background-image: url("../img/fon-mobile-started.png");
+  }
+}
+.started__content {
+  text-align: center;
+}
+@media (max-width: 756px) {
+  .started__content {
+    padding-bottom: 150px;
+  }
+}
+.started__signature {
+  text-align: center;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #E7A651;
+  padding-top: 122px;
+}
+@media (max-width: 756px) {
+  .started__signature {
+    padding-top: 70px;
+  }
+}
+.started__text {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 756px) {
+  .started__text {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+.started__get-started {
+  background: #E7A651;
+  border-radius: 5px;
+  min-width: 202px;
+  min-height: 48px;
+  border: none;
+  color: #FFFFFF;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footer {
+  min-height: 384px;
+  background-color: #333333;
+  margin-top: -20px;
+}
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 75px;
+}
+.footer__top-content {
+  display: flex;
+  min-height: 272px;
+}
+@media (max-width: 756px) {
+  .footer__top-content {
+    flex-direction: column;
+  }
+}
+.footer__lable {
+  max-width: 270px;
+}
+.footer__lable h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+  margin-top: 0;
+}
+.footer__lable p {
+  font-family: "Courier Prime";
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.502972);
+}
+.footer__menu {
+  margin-left: 130px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+@media (max-width: 756px) {
+  .footer__menu {
+    margin-left: 0px;
+  }
+}
+.footer__menu h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #E7A651;
+  margin: 0;
+}
+.footer__menu ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.footer__menu ul:first-child {
+  margin-right: 153px;
+}
+.footer__menu ul li {
+  list-style: none;
+}
+.footer__menu ul li:first-child {
+  margin-bottom: 15px;
+}
+.footer__menu-items {
+  display: flex;
+  margin-top: 25px;
+}
+.footer__subscribe {
+  margin-left: 231px;
+  margin-top: 15px;
+}
+@media (max-width: 756px) {
+  .footer__subscribe {
+    margin-left: 0;
+  }
+}
+.footer__subscribe h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #E7A651;
+  margin: 0;
+}
+.footer__subscribe input {
+  height: 40px;
+  width: 240px;
+  padding-left: 16px;
+}
+.footer__form {
+  position: relative;
+  width: 240px;
+  height: 76px;
+}
+.footer__arrow {
+  width: 26px;
+  height: 21px;
+  position: absolute;
+  top: 12px;
+  right: -7px;
+  background-color: white;
+  border: none;
+}
+.footer__bottom-content {
+  display: flex;
+  border-top: 1px solid white;
+  padding-top: 31px;
+  align-items: center;
+  padding-bottom: 32px;
+}
+@media (max-width: 756px) {
+  .footer__bottom-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.footer__bottom-social {
+  display: flex;
+  margin-right: 391px;
+}
+@media (max-width: 756px) {
+  .footer__bottom-social {
+    margin: 0;
+  }
+}
+.footer__bottom-social-item {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  background: #6C4DC2;
+  border-radius: 48px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.footer__bottom-social-item:last-child {
+  margin-right: 0;
+}
+.footer__bottom-href {
+  display: flex;
+  align-items: center;
+  margin-left: 75px;
+}
+@media (max-width: 756px) {
+  .footer__bottom-href {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 44px;
+  }
+}
+.footer__bottom-href a {
+  margin-left: 52px;
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 756px) {
+  .footer__bottom-href a {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+.footer__bottom-href p {
+  margin-left: 52px;
+}
+@media (max-width: 756px) {
+  .footer__bottom-href p {
+    margin-left: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,365 @@
+.header {
+  background: #273A89;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  color: #FFFFFF;
+}
+.header__logo h1 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  min-width: 432px;
+}
+.header__menu li {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Courier Prime";
+  font-size: 16px;
+  line-height: 32px;
+}
+.header__menu li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.header__search {
+  display: flex;
+  background: #6C4DC2;
+  border-radius: 24px;
+  min-width: 48px;
+  min-height: 48px;
+  border: none;
+  justify-content: center;
+}
+.header__search img {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+
+.hero {
+  min-height: 304px;
+  background-color: #273A89;
+}
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  padding-top: 104px;
+}
+.hero__content h2 {
+  margin: 0;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 80px;
+  color: white;
+}
+.hero__href {
+  display: flex;
+  justify-content: center;
+  margin-top: 11px;
+}
+.hero__href p {
+  margin: 0 15px 0 15px;
+}
+.hero__href p, .hero__href a {
+  text-decoration: none;
+  font-family: "Courier Prime";
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.502972);
+}
+
+.companies {
+  min-height: 1024px;
+  margin-bottom: 96px;
+}
+.companies__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.companies__categories {
+  display: flex;
+  min-width: 815px;
+  max-height: 48px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+  background: #EFEFEF;
+  border-radius: 5px;
+  margin-bottom: 34px;
+}
+.companies__items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+.companies__item {
+  display: flex;
+  align-items: center;
+  font-family: "Courier Prime";
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.501557);
+  text-align: center;
+  padding: 0 35px;
+  min-height: 48px;
+}
+.companies__item.active {
+  background: #E7A651;
+  border-radius: 5px;
+  color: white;
+}
+.companies__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.companies__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-width: 370px;
+  min-height: 304px;
+  margin-top: 30px;
+}
+.companies__card p {
+  font-family: "Courier Prime";
+  font-size: 20px;
+  line-height: 32px;
+  color: white;
+  margin-bottom: 12px;
+}
+.companies__card a {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: white;
+  margin-bottom: 40px;
+}
+.companies__card a, .companies__card p {
+  margin-left: 32px;
+}
+.companies__pages {
+  display: flex;
+  justify-content: space-between;
+  min-width: 160px;
+}
+.companies__page {
+  display: flex;
+  min-width: 48px;
+  min-height: 48px;
+  justify-content: center;
+  border-radius: 48px;
+  margin-top: 64px;
+}
+.companies__page.active {
+  background-color: #E7A651;
+  color: white;
+}
+
+.started {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 528px;
+  margin-top: -100px;
+}
+.started__content {
+  text-align: center;
+}
+.started__signature {
+  text-align: center;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #E7A651;
+  padding-top: 122px;
+}
+.started__text {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  color: white;
+}
+.started__get-started {
+  background: #E7A651;
+  border-radius: 5px;
+  min-width: 202px;
+  min-height: 48px;
+  border: none;
+  color: #FFFFFF;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footer {
+  min-height: 384px;
+  background-color: #333333;
+  margin-top: -20px;
+}
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 75px;
+}
+.footer__top-content {
+  display: flex;
+  min-height: 272px;
+}
+.footer__lable {
+  max-width: 270px;
+}
+.footer__lable h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+  margin-top: 0;
+}
+.footer__lable p {
+  font-family: "Courier Prime";
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.502972);
+}
+.footer__menu {
+  margin-left: 130px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.footer__menu h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #E7A651;
+  margin: 0;
+}
+.footer__menu ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.footer__menu ul:first-child {
+  margin-right: 153px;
+}
+.footer__menu ul li {
+  list-style: none;
+}
+.footer__menu ul li:first-child {
+  margin-bottom: 15px;
+}
+.footer__menu-items {
+  display: flex;
+  margin-top: 25px;
+}
+.footer__subscribe {
+  margin-left: 231px;
+  margin-top: 15px;
+}
+.footer__subscribe h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #E7A651;
+  margin: 0;
+}
+.footer__subscribe input {
+  height: 40px;
+  width: 240px;
+  padding-left: 16px;
+}
+.footer__form {
+  position: relative;
+  width: 240px;
+  height: 76px;
+}
+.footer__arrow {
+  width: 26px;
+  height: 21px;
+  position: absolute;
+  top: 12px;
+  right: -7px;
+  background-color: white;
+  border: none;
+}
+.footer__bottom-content {
+  display: flex;
+  border-top: 1px solid white;
+  padding-top: 31px;
+  align-items: center;
+  padding-bottom: 32px;
+}
+.footer__bottom-social {
+  display: flex;
+  margin-right: 391px;
+}
+.footer__bottom-social-item {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  background: #6C4DC2;
+  border-radius: 48px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.footer__bottom-social-item:last-child {
+  margin-right: 0;
+}
+.footer__bottom-href {
+  display: flex;
+  align-items: center;
+  margin-left: 75px;
+}
+.footer__bottom-href a {
+  margin-left: 52px;
+  text-decoration: none;
+  color: white;
+}
+.footer__bottom-href p {
+  margin-left: 52px;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style_portfolio_page.css.map */

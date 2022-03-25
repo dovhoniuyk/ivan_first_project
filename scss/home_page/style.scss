@@ -1,0 +1,29 @@
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    @media (max-width: 800px) {
+        width: auto;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+@import "header";
+@import "hero";
+@import "tools";
+@import "podcast";
+@import "customers";
+@import "statistic";
+@import "cases";
+@import "slider";
+@import "clients";
+@import "blog";
+@import "map";
+@import "started";
+@import "footer";

@@ -1,0 +1,43 @@
+.podcast{
+    min-height: 448px;
+    background-image: url(../img/Group\ 5.png);
+    background-position:cover;
+    background-repeat: no-repeat;
+    background-size:100%;
+    @media(max-width: 756px){
+        background-image: url(../img/bg\ \(2\).png);
+    }
+
+    &__content{
+        max-width: 1440px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media(max-width: 756px){
+            flex-wrap: wrap;
+            max-width: auto;
+            justify-content: center;
+        
+        }
+
+    }
+        &__image{
+            margin-right: 150px;
+            
+        }
+        &__text{
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FFFFFF;
+            max-width: 570px;
+        }
+
+
+
+
+}
